@@ -2,10 +2,6 @@
 
 Backend do sistema LookOs, um ERP desenvolvido para gerenciamento de salões de beleza.
 
-O projeto tem como objetivo centralizar processos como cadastro de clientes, funcionários, serviços, produtos, agendamentos, controle de estoque e gerenciamento administrativo.
-
-Este repositório contém somente a API do sistema. O frontend será executado separadamente.
-
 ---
 
 ## Tecnologias utilizadas
@@ -238,56 +234,6 @@ Porta: 5432
 
 A API seguirá o padrão REST.
 
-Exemplo:
-
-## Usuários
-
-Criar usuário:
-
-```
-POST /users
-```
-
-Listar usuários:
-
-```
-GET /users
-```
-
-Buscar usuário por ID:
-
-```
-GET /users/:id
-```
-
-Atualizar usuário:
-
-```
-PUT /users/:id
-```
-
-Remover usuário:
-
-```
-DELETE /users/:id
-```
-
----
-
-# Autenticação
-
-O sistema utiliza autenticação através de JWT.
-
-Após o login, o usuário recebe um token que deve ser enviado nas requisições protegidas.
-
-Formato:
-
-```
-Authorization: Bearer TOKEN
-```
-
----
-
 # Desenvolvimento em equipe
 
 Antes de iniciar uma alteração:
@@ -357,22 +303,3 @@ Exemplo:
 ```env
 PORT=3334
 ```
-
----
-
-# Objetivo do projeto
-
-O LookOs busca facilitar a gestão de pequenos salões de beleza, substituindo controles manuais como planilhas, cadernos e mensagens, trazendo organização para:
-
-* Agendamentos
-* Clientes
-* Funcionários
-* Serviços
-* Produtos
-* Estoque
-* Financeiro
-* Administração do salão
-
----
-
-Desenvolvido como Trabalho de Conclusão de Curso - Tecnologia em Sistemas para Internet.
